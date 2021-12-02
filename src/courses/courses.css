@@ -1,0 +1,70 @@
+
+.courses{
+    /* margin-top: 70px; */
+    padding: 2%;
+    padding-top: 0px;
+    height: 100vh;
+    background-size: cover;
+    /* background-color: rgba(221, 218, 214, 0.979); */
+    /* background-image: url("https://images.unsplash.com/photo-1559149251-e9a1dc89981d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80"); */
+}
+
+.coursebox{
+    
+    width: 20%;
+    margin: 2%;
+    grid-column: auto;
+    float: left;
+    background-color: rgb(248, 248, 248);
+    border-radius: 10px;
+    height: 140px;
+    box-shadow: 1px 4px 8px #8888;
+}
+
+.coursebox:hover{
+    background-color: rgb(235, 231, 231);
+}
+.lcbox{
+    width: 45%;
+    float: left;
+}
+.lcbox img{
+    width: 98%;
+    margin-top: 2px;
+    height: 135px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.rcbox{
+    width: 52%;
+    float: left;
+    
+}
+.rcbox h1{
+    margin-top: 5px;
+    font-size: 17px;
+    text-align: center;
+    color: rgb(78, 76, 76);
+}
+.rcbox p{
+    font-size: 14px;
+    /* margin-left: 5%; */
+    margin-top: 5px;
+}
+.rcbox button{
+    width: 55%;
+    margin-top: 2px;
+    margin-left: 20%;
+    border: 3px solid orangered;
+    background-color: #fff;
+    font-size: 16px;
+    color: orangered;
+    cursor: pointer;
+    border-radius: 3px;
+    letter-spacing: 1.5px;
+}
+.rcbox button:hover{
+    border: 3px solid orangered;
+    background-color: orangered;
+    color: #fff;
+}

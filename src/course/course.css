@@ -1,0 +1,45 @@
+.prevcourse{
+    background-color: rgb(230, 225, 225);
+ 
+     background-size: cover;
+
+    margin-top: 70px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.h11 span{
+    color: orangered;
+    font-weight:bolder;
+}
+.prevcourse h1{
+    color: rgb(58, 58, 58);
+    letter-spacing: 1.5px;
+    word-spacing: 2.5px;
+    font-weight: bolder;
+}
+.video-js{
+    margin-top: 20px;
+    
+    /* width: 470px; */
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+    
+}
+.vjs-poster{
+    border-radius: 20px;
+}
+.video-js .vjs-big-play-button{
+    background-color: red;
+    font-size: 48px;
+    border:none;
+    color: #fff;
+}
+.video-js:hover .vjs-big-play-button:hover{
+    background-color: #fff;
+    
+    border:none;
+    color: red;
+}

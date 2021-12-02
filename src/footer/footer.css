@@ -1,0 +1,26 @@
+.footer{
+    background-color: rgb(46, 45, 45);
+}
+.footerbox{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+.social{
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+a{
+    font-size: 30px;
+    margin-right: 1%;
+    margin-left: 1%;
+    color: #fff;
+}
+a:hover{
+    color: gray;
+}
+
+.copy{
+    float: none;
+    color:beige;
+}

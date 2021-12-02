@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    height: 70px;
+    overflow: hidden;
+    /* background-color: #333; */
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    background-color: rgb(255, 255, 255);
+}
+.hleft{
+    width: 60%;
+    
+}
+.logo{
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-right: 5%;
+    font-weight:bolder;
+    letter-spacing: 0.5px;
+    width: 20%;
+    color: rgb(61, 60, 60);
+}
+.logo span{
+    color: rgb(255, 123, 0);
+}
+.htp li{
+    margin-top: 3%;
+    float: left;
+    margin-right: 2%;
+    margin-left: 2%;
+    list-style: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: rgb(61, 60, 60);
+    cursor: pointer;
+}
+.htp li:hover{
+    color: rgb(119, 117, 117);
+    border-bottom: 3px solid orangered;
+}
+.hright{
+    width: 39%;
+    float: right;
+    margin-top: 1.25%;
+    margin-right: 3%;
+}
+.hright button{
+    float: right;
+    /* margin-right: 2%; */
+    width: 18%;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    outline: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+
+.signin:hover{
+    background-color: orangered;
+    color: azure;
+}
+.signup:hover{
+    background-color: orangered;
+    color: azure;
+}
+.signup{
+    background-color: #fff;
+    color: orangered;
+    border: none;
+}
+.signin{
+    background-color: #fff;
+    color: rgb(82, 81, 81);
+    border: 3px solid rgb(255, 101, 12);
+}
